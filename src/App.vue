@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <p>beta and very slow, if at all</p>
     <nav>
       <ul>
         <li><router-link to="/">Alt/BTC Performance</router-link></li>
@@ -27,6 +28,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.container {
+  width:60%;
+  margin:0 auto;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
