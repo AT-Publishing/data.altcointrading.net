@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <p>beta and very slow, if at all</p>
+    <h1>Bitcoin & Altcoin Trading Data</h1>
     <nav>
       <ul>
-        <li><router-link to="/">Alt/BTC Performance</router-link></li>
-        <li><router-link to="/solo">Altindex Solo</router-link></li>&nbsp;--&nbsp;
-        <li><a target="_blank" href="https://data.altcointrading.net/chart/">[Old Version]</a></li>
+        <li><router-link to="/">[Tabled Market Data]</router-link></li>
+        <li><router-link to="/solo">[Altindex]</router-link></li>&nbsp;--&nbsp;
+        <li><a target="_blank" href="https://data.altcointrading.net/chart/">[Altindex Chart]</a></li>
         <li><a target="_blank" href="https://data.altcointrading.net/api/chartdata.json">[API]</a></li>
       </ul>
     </nav>

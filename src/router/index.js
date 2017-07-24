@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Altindex from '@/components/Altindex'
+import Table from '@/components/Table'
 import AltindexSolo from '@/components/AltindexSolo'
 
 Vue.use(Router)
@@ -9,8 +9,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Altindex',
-      component: Altindex
+      name: 'Table',
+      component: Table
     },
     {
       path: '/solo',
